@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #00ffaa;
+  background-image: url("../img/Kaapstad_map.png");
+}
+
+.intro_titel{
+  text-align: center;
+  margin-top: 7vh;
+}
+.intro_Button{
+  width: 80%;
+  height: 70px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
