@@ -4,18 +4,24 @@
   box-sizing: border-box;
 }
 
+:root{
+  --background_color: #00ffaa;
+  --button_color: #8AEB5A;
+}
+
 html{
   font-size: 62.5%;
 }
 
 body{
-  background-color: #00ffaa;
-  background-image: url("../img/Kaapstad_map.png");
+  background-color: var(--background_color);
+  background-image: url("../img/Kaapstad_map_V3.jpg");
 }
 
 .intro_titel{
   text-align: center;
   margin-top: 7vh;
+  color: white;
 }
 .intro_Button{
   width: 80%;
@@ -25,4 +31,6 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
+  font-size: 4rem;
+  background-color: var(--button_color);
 }
