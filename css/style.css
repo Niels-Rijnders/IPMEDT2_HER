@@ -18,6 +18,18 @@ body{
   background-image: url("../img/Kaapstad_map_V3.jpg");
 }
 
+.boddy_overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: darkred;
+  background-image: linear-gradient(to bottom, #801336, #d9205b);
+  transition: 0.5s;
+  transition-timing-function: linear;
+}
+
 .intro_titel{
   text-align: center;
   margin-top: 7vh;
