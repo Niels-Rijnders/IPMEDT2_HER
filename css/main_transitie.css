@@ -1,0 +1,15 @@
+:root{
+    --transition_color: #00238c;
+    }
+
+    .boddy_overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--transition_color);
+        background-image: url("../img/wavecut.png");
+        transition: 0.5s;
+        transition-timing-function: linear;
+      }

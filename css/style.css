@@ -7,6 +7,7 @@
 :root{
   --background_color: #00ffaa;
   --button_color: #8AEB5A;
+  --transition_color: #00238c;
 }
 
 html{
@@ -34,4 +35,6 @@ body{
   margin: 0;
   font-size: 4rem;
   background-color: var(--button_color);
+  background-image: url("../img/wavecut.png");
+  z-index: 1;
 }
