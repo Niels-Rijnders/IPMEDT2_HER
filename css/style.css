@@ -7,6 +7,7 @@
 :root{
   --background_color: #00ffaa;
   --button_color: #8AEB5A;
+  --transition_color: #00238c;
 }
 
 html{
@@ -22,10 +23,10 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 0%;
-  background-color: darkred;
-  background-image: linear-gradient(to bottom, #801336, #d9205b);
+  height: 0%;
+  width: 100%;
+  background-color: var(--transition_color);
+  background-image: url("../img/wavecut.png");
   transition: 0.5s;
   transition-timing-function: linear;
 }
@@ -45,4 +46,5 @@ body{
   margin: 0;
   font-size: 4rem;
   background-color: var(--button_color);
+  background-image: url("../img/wavecut.png");
 }
