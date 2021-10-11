@@ -6,11 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoofdpagina</title>
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/transitie.css">
+    <link rel="stylesheet" href="/css/maintransitie.css">
 </head>
 <body>
     <div class="boddy_overlay"></div>
-    <h1>aaaaaaaaaaaaaaaaaaaaaah</h1>
-    <script type="text/javascript" src="js/transitie.js"></script>
+    <h1>Kaapstad</h1>
+
+    <section class="container">
+      <img src="img/wijk_1.png" alt="wijk_1" class="image">
+      <div class="overlay">
+        <a href="#" class="icon" title="User Profile">
+            <i class="fa fa-user"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="container">
+        <img src="img/wijk_2.png" alt="wijk_1" class="image">
+        <div class="overlay" onmouseover="writeText('wijk 1')">
+          <a href="#" class="icon" title="User Profile">
+              <i class="fa fa-user"></i>
+            </a>
+          </div>
+        </section>
+
+        <section class="container">
+          <img src="img/wijk_3.png" alt="wijk_1" class="image">
+          <div class="overlay" onmouseover="writeText('wijk 2')">
+            <a href="#" class="icon" title="User Profile">
+                <i class="fa fa-user"></i>
+              </a>
+            </div>
+          </section>
+
+          <p id="desc">Mouse over the sun and the planets and see the different descriptions.</p>
+
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
