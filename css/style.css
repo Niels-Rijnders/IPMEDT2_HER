@@ -116,3 +116,17 @@ body{
   text-align: left;
   font-family: sans-serif;
 }
+
+.wijk_Button{
+    width: 80%;
+    height: 70px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    font-size: 2rem;
+    background-color: var(--button_color);
+    background-image: url("../img/wavecut.png");
+    z-index: 1;
+  }
+}
