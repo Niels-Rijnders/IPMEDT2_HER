@@ -87,15 +87,19 @@ body{
 }
 
 .box_Kaart_Tekst{
-  padding: 20px;
+  padding: 0px;
   border: 5px solid white;
-  margin: 10px
+  margin: 10px;
+  background-color: #5978CE;
 }
 
 .box_Kaart_Tekst_Tekst{
   padding: 20px;
-  border: 10px solid white;
+  margin-left: 0;
+  margin-right: 0;
+  border-top: 5px solid white;
   margin: 0;
+  background-color: white;
 }
 .kaart_Tekst{
   margin: 10px;
@@ -107,7 +111,7 @@ body{
 
 .kaart_Desc{
   margin: 0;
-  color: white;
+  color: black;
   font-size: 15px;
   text-align: left;
   font-family: sans-serif;
