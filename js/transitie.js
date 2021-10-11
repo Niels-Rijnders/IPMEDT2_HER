@@ -1,4 +1,6 @@
 const cards = document.getElementsByClassName("intro_Button");
+//zorg dat de knop naar een andere pagina de class intro_Button 
+//heeft en zorg dat die een z index van 1 heeft
 const overlay = document.getElementsByClassName("boddy_overlay")[0];
 
 setTimeout(function(){
