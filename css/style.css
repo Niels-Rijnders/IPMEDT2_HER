@@ -49,11 +49,11 @@ body{
 
 .image {
   display: block;
-  position: relative;
   width: 100%;
   height: auto;
   z-index: 1;
 }
+/*DOE GEEN POSITION RELATIVE WANT DAT VERNEUKT DE HOVER HELEMAAL*/
 
 .image_Pin {
   display: flex;
