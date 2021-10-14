@@ -14,16 +14,16 @@ function writeText(txt) {
   document.getElementById("desc").innerHTML = b;
   switch (a){
     case "Wijk 1":
-      wijk_button.attr("onclick", "window.location.href='wijk_1.html';");
+      wijk_button.setAttribute("onclick", "location.href='wijk_1.html';");
       break;
     case "Wijk 2":
-      wijk_button.onclick="window.location.href='wijk_2.html';";
+      wijk_button.setAttribute("onclick", "location.href='wijk_2.html';");
       break;
     case "Wijk 3":
-      wijk_button.onclick="window.location.href='wijk_3.html';";
+      wijk_button.setAttribute("onclick", "location.href='wijk_3.html';");
       break;
     default:
-      wijk_button.onclick="window.location.href='masdfaain.html';";
+      wijk_button.setAttribute("onclick", "location.href='main.html';");
       break;
   }
 }
