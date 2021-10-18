@@ -3,10 +3,12 @@ const button = document.getElementsByClassName("intro_Button");
 //heeft en zorg dat die een z index van 1 heeft
 const overlay = document.getElementsByClassName("boddy_overlay")[0];
 const wijk_button = document.getElementById("wijk_Button");
+const wijk1_foto = document.getElementById("wijk1_foto_js");
+var foto_nummer = "";
 
 setTimeout(function(){
-  overlay.style.height = "0%"
-},750)
+  overlay.style.height = "0%";
+},750);
 
 function writeText(txt) {
   var array = txt.split(','), a = array[0], b = array[1];
@@ -33,9 +35,39 @@ function writeText(txt) {
 
 for(let i = 0; i < button.length; i++){
   button[i].onclick = function (event){
-    overlay.style.height = "100%"
+    overlay.style.height = "100%";
     setTimeout(function(){
       window.location = "main.html";
-    },750)
-  }
+    },750);
+  };
 }
+
+setInterval(function(foto_nummer){
+  console.log("functie werkt");
+  switch(foto_nummer){
+    case "een":
+      console.log("swtich 1 werkt");
+      wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_2.png");
+      foto_nummer = 2;
+      break;
+    case 2:
+      console.log("swtich 2werkt");
+      wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_3.png");
+      foto_nummer = 3;
+      break;
+    case 3:
+      wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_4.png");
+      foto_nummer = 4;
+      break;
+    case 4:
+      wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_5.png");
+      foto_nummer = 0;
+      break;
+    default:
+      console.log("in default");
+      wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_1.png");
+      foto_nummer = "een";
+      console.log(foto_nummer);
+      break;
+  }
+},2000);

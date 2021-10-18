@@ -141,3 +141,9 @@ body{
     z-index: 1;
   }
 
+.wijk_1_foto{
+  height: 80%;
+  width: 100%;
+  transition: ease 0.5s;
+}
+
