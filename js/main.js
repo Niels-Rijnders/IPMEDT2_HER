@@ -6,6 +6,7 @@ const wijk_button = document.getElementById("wijk_Button");
 const wijk1_foto = document.getElementById("wijk1_foto_js");
 var foto_nummer = 1;
 
+
 setTimeout(function(){
   overlay.style.height = "0%";
 },750);
@@ -42,33 +43,26 @@ for(let i = 0; i < button.length; i++){
   };
 }
 
-//foto_nummer blijft op 1 staan en veranderd niet omdat hij in de default vast blijft zitten
-setInterval(function(foto_nummer){
-  console.log("functie werkt");
-  switch(foto_nummer){
+setInterval(function(){
+  switch (foto_nummer) {
     case 1:
-      console.log("swtich 1 werkt");
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_2.png");
-      foto_nummer = 2;
+      foto_nummer++;
       break;
     case 2:
-      console.log("swtich 2werkt");
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_3.png");
-      foto_nummer = 3;
+      foto_nummer++;
       break;
     case 3:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_4.png");
-      foto_nummer = 4;
+      foto_nummer++;
       break;
     case 4:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_5.png");
-      foto_nummer = 0;
+      foto_nummer++;
       break;
-    default:
-      console.log("in default");
+    case 5:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_1.png");
       foto_nummer = 1;
-      console.log(foto_nummer);
-      break;
   }
 },2000);
