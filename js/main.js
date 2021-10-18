@@ -4,7 +4,7 @@ const button = document.getElementsByClassName("intro_Button");
 const overlay = document.getElementsByClassName("boddy_overlay")[0];
 const wijk_button = document.getElementById("wijk_Button");
 const wijk1_foto = document.getElementById("wijk1_foto_js");
-var foto_nummer = "";
+var foto_nummer = 1;
 
 setTimeout(function(){
   overlay.style.height = "0%";
@@ -42,10 +42,11 @@ for(let i = 0; i < button.length; i++){
   };
 }
 
+//foto_nummer blijft op 1 staan en veranderd niet omdat hij in de default vast blijft zitten
 setInterval(function(foto_nummer){
   console.log("functie werkt");
   switch(foto_nummer){
-    case "een":
+    case 1:
       console.log("swtich 1 werkt");
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_2.png");
       foto_nummer = 2;
@@ -66,7 +67,7 @@ setInterval(function(foto_nummer){
     default:
       console.log("in default");
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_1.png");
-      foto_nummer = "een";
+      foto_nummer = 1;
       console.log(foto_nummer);
       break;
   }
