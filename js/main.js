@@ -67,6 +67,11 @@ setInterval(function(){
       foto_nummer++;
       break;
     case 5:
+      wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_6.png");
+      wijk1_figcaption.innerHTML = "";
+      foto_nummer++;
+      break;
+    case 6:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_1.png");
       wijk1_figcaption.innerHTML = "We have no fear of what we are doing!";
       foto_nummer = 1;
