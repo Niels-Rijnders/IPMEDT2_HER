@@ -58,12 +58,12 @@ setInterval(function(){
       break;
     case 3:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_4.png");
-      wijk1_figcaption.innerHTML = "But I bet you've got no water in your house!";
+      wijk1_figcaption.innerHTML = "They have no water crisis there!";
       foto_nummer++;
       break;
     case 4:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_5.png");
-      wijk1_figcaption.innerHTML = "";
+      wijk1_figcaption.innerHTML = "But I bet you've got no water in your house!";
       foto_nummer++;
       break;
     case 5:
