@@ -19,7 +19,7 @@ function writeText(txt) {
   switch (a){
     case "Wijk 1":
       wijk_button.setAttribute("onclick", "location.href='wijk_1.html';");
-      wijk_button.innerHTML = "nog iets";
+      wijk_button.innerHTML = "Bekijk de demonstratie";
       break;
     case "Wijk 2":
       wijk_button.setAttribute("onclick", "location.href='wijk_2.html';");
@@ -27,7 +27,7 @@ function writeText(txt) {
       break;
     case "Wijk 3":
       wijk_button.setAttribute("onclick", "location.href='wijk_3.html';");
-      wijk_button.innerHTML = "Bekijk de demonstratie";
+      wijk_button.innerHTML = "nog iets";
       break;
     default:
       wijk_button.setAttribute("onclick", "location.href='main.html';");
