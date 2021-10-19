@@ -4,6 +4,7 @@ const button = document.getElementsByClassName("intro_Button");
 const overlay = document.getElementsByClassName("boddy_overlay")[0];
 const wijk_button = document.getElementById("wijk_Button");
 const wijk1_foto = document.getElementById("wijk1_foto_js");
+const wijk1_figcaption = document.getElementById("wijk1_figcaption_js");
 var foto_nummer = 1;
 
 
@@ -47,22 +48,27 @@ setInterval(function(){
   switch (foto_nummer) {
     case 1:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_2.png");
+      wijk1_figcaption.innerHTML = "Go to those overpriced hotels down the road!";
       foto_nummer++;
       break;
     case 2:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_3.png");
+      wijk1_figcaption.innerHTML = "You can run the bathwater until it floods, comrades!";
       foto_nummer++;
       break;
     case 3:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_4.png");
+      wijk1_figcaption.innerHTML = "But I bet you've got no water in your house!";
       foto_nummer++;
       break;
     case 4:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_5.png");
+      wijk1_figcaption.innerHTML = "";
       foto_nummer++;
       break;
     case 5:
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_1.png");
+      wijk1_figcaption.innerHTML = "We have no fear of what we are doing!";
       foto_nummer = 1;
   }
 },2000);
