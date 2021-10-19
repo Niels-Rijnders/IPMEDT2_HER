@@ -67,6 +67,7 @@ setInterval(function(){
       foto_nummer++;
       break;
     case 5:
+      //deze foto hoeft er misschien niet in
       wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_6.png");
       wijk1_figcaption.innerHTML = "";
       foto_nummer++;
