@@ -145,4 +145,36 @@ body{
   height: 80%;
   width: 100%;
   transition: ease 0.5s;
+  opacity: 1;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.wijk_1_2_foto{
+  height: 80%;
+  width: 100%;
+  transition: ease 0.5s;
+  opacity: 0;
+  display: block;
+  backface-visibility: hidden;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .wijk_1_2_foto {
+  opacity: 1;
+}
+
+.container:hover .middle {
+  opacity: 0;
 }
