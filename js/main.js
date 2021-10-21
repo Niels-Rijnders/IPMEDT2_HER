@@ -44,6 +44,7 @@ for(let i = 0; i < button.length; i++){
   };
 }
 
+/*
 setInterval(function(){
   switch (foto_nummer) {
     case 1:
@@ -80,3 +81,10 @@ setInterval(function(){
   //deze moet langer als we de site gaan klaarmaken.
   //maybe knoppen toevoegen om door de foto's te scrollen
 },2000);
+*/
+
+(document).ready(function() {
+  (".fade_fotos_1:hover").click(function() {
+  ("top_1_js").toggleClass("transparent");
+});
+});
