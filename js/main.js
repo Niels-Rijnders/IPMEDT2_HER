@@ -86,6 +86,18 @@ setInterval(function(){
 */
 
 setInterval(function(){
+  if (foto_nummer == 1){
+    wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_3.png");
+    wijk1_figcaption.innerHTML = "You can run the bathwater until it floods, comrades!";
+    foto_nummer = 0;
+  } else {
+    wijk1_foto.setAttribute("src", "img/demonstratie foto's/protest_2.png");
+    wijk1_figcaption.innerHTML = "Go to those overpriced hotels down the road!";
+    foto_nummer = 1;
+  }
+},4000);
+
+setInterval(function(){
   switch (foto_nummer) {
     case 1:
       wijk2_foto.setAttribute("src", "img/arrestatie foto's/Water_regels_2.png");
@@ -103,3 +115,4 @@ setInterval(function(){
       foto_nummer = 1;
   }
 },2000);
+
