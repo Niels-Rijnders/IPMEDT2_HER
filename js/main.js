@@ -79,6 +79,8 @@ setInterval(function(){
       wijk1_figcaption.innerHTML = "We have no fear of what we are doing!";
       foto_nummer = 1;
   }
+  //deze moet langer als we de site gaan klaarmaken.
+  //maybe knoppen toevoegen om door de foto's te scrollen
 },2000);
 
 setInterval(function(){
