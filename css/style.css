@@ -20,10 +20,12 @@ body{
 }
 
 .intro_titel{
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   margin-top: 7vh;
+  margin-bottom: 3vh;
   color: white;
+  font-family: sans-serif;
 }
 .intro_Button{
   width: 80%;
@@ -141,6 +143,11 @@ body{
     z-index: 1;
   }
 
+.wijk_1_figure{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .wijk_1_foto{
   height: 80%;
   width: 100%;
@@ -149,6 +156,25 @@ body{
   display: block;
   backface-visibility: hidden;
 }
+
+.wijk_2_img_text{
+  font-size: 12px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.wijk_2_text{
+  font-size: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.minigame_titel{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: green;
+}
+
 
 .wijk_1_2_foto{
   height: 80%;
