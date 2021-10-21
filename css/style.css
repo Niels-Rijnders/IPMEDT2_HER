@@ -146,25 +146,3 @@ body{
   width: 100%;
   transition: ease 0.5s;
 }
-
-.fade_fotos_1 {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
-}
-.fade_fotos_1 > img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.fade_fotos_1 > img.transparent {
-opacity:0;
-}
-.fade_fotos_1:hover {
-cursor:pointer;
-}

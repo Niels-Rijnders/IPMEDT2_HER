@@ -85,12 +85,6 @@ setInterval(function(){
 },2000);
 */
 
-(document).ready(function() {
-  (".fade_fotos_1:hover").click(function() {
-  ("top_1_js").toggleClass("transparent");
-});
-});
-
 setInterval(function(){
   switch (foto_nummer) {
     case 1:
