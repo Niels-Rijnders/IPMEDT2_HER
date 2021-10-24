@@ -24,7 +24,7 @@ function writeText(txt) {
       break;
     case "Wijk 3":
       wijk_button.setAttribute("onclick", "location.href='wijk_3.html';");
-      wijk_button.innerHTML = "nog iets";
+      wijk_button.innerHTML = "Bekijk de geloofsbijeenkomst";
       break;
     default:
       wijk_button.setAttribute("onclick", "location.href='main.html';");
