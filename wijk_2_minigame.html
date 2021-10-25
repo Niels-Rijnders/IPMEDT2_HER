@@ -10,6 +10,10 @@
 </head>
 <body>
     <div class="boddy_overlay"></div>
+
+    <img src="img/wijk_1.png" id="image_drag" draggable="true" ondragstart="drag(event)"/>
+    <div id="container" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/drag.js"></script>
 </body>
 </html>
