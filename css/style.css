@@ -188,8 +188,9 @@ a:hover{
 }
 
 .wijk_2_img_text{
-  font-size: 1.5rem;
-  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
 
