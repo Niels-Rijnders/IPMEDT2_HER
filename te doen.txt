@@ -2,3 +2,5 @@ transitie maken tussen de pagina's
 vorig jaar hebben we een schermvullende overgang gemaakt
 op de index komt een blauw vlak omhoog maybe met golf patroon
 dan laad de nieuwe pagina en die begint met een blauw vlak dat omlaag gaat.
+
+voor wijk 1 maak een minigame waar je dingen moet spotten zoals borden bij de demonstratie.
