@@ -3,6 +3,8 @@ const button = document.getElementsByClassName("intro_Button");
 //heeft en zorg dat die een z index van 1 heeft
 const overlay = document.getElementsByClassName("boddy_overlay")[0];
 const wijk_button = document.getElementById("wijk_Button");
+const slider = document.getElementById("slider");
+const foreground_img = document.getElementsByClassName("foreground_img")[0];
 
 
 setTimeout(function(){
@@ -41,5 +43,11 @@ for(let i = 0; i < button.length; i++){
   };
 }
 
+slider.addEventListener('change', image_slide);
 
-
+function image_slide(e){
+  const sliderPos = e.target.value;
+  console.log(sliderPos);
+  foreground_img.style.width = sliderPos + "%";
+  //$('.foreground_img').css('width', `${sliderPos}%`)
+};
