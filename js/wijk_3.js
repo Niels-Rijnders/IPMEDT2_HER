@@ -37,6 +37,31 @@ function slideshow(){
           foto_nummer++;
           break;
         case 7:
+          wijk3_foto.setAttribute("src", "img/demonstratie foto's/godsdienst_1.png");
+          wijk3_figcaption.innerHTML = "Come back to god!";
+          foto_nummer++;
+          break;
+        case 8:
+          wijk3_foto.setAttribute("src", "img/demonstratie foto's/godsdienst_3.png");
+          wijk3_figcaption.innerHTML = "Come back to god!";
+          foto_nummer++;
+          break;
+        case 9:
+          wijk3_foto.setAttribute("src", "img/demonstratie foto's/godsdienst_6.png");
+          wijk3_figcaption.innerHTML = "Come back to god!";
+          foto_nummer++;
+          break;
+        case 10:
+          wijk3_foto.setAttribute("src", "img/demonstratie foto's/godsdienst_7.png");
+          wijk3_figcaption.innerHTML = "Come back to god!";
+          foto_nummer++;
+          break;
+        case 11:
+          wijk3_foto.setAttribute("src", "img/demonstratie foto's/godsdienst_8.png");
+          wijk3_figcaption.innerHTML = "Come back to god!";
+          foto_nummer++;
+          break;
+        case 12:
           wijk3_foto.setAttribute("src", "img/demonstratie foto's/godsdienst_2.png");
           wijk3_figcaption.innerHTML = "Come back to god!";
           foto_nummer = 1;
