@@ -42,11 +42,3 @@ for(let i = 0; i < button.length; i++){
     },750);
   };
 }
-
-slider.addEventListener('change', image_slide);
-
-function image_slide(e){
-  const sliderPos = e.target.value;
-  console.log(sliderPos);
-  foreground_img.style.width = sliderPos + "%";
-};
