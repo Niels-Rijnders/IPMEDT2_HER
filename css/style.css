@@ -272,6 +272,20 @@ a:hover{
   border-radius: 6px;
 }
 
+.eind_Button{
+  width: 80%;
+  height: 70px;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  font-size: 2rem;
+  background-color: grey;
+  background-image: url("../img/wavecut.png");
+  z-index: 1;
+  color: rgb(241, 241, 241);
+}
+
 /*deze css is voor de slider op wijk 1 minigame html*/
 
 .vergelijkingsfoto{
