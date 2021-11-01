@@ -49,5 +49,4 @@ function image_slide(e){
   const sliderPos = e.target.value;
   console.log(sliderPos);
   foreground_img.style.width = sliderPos + "%";
-  //$('.foreground_img').css('width', `${sliderPos}%`)
 };
