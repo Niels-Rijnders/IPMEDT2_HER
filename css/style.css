@@ -216,6 +216,15 @@ a:hover{
   backface-visibility: hidden;
 }
 
+.wijk_2_minigame_foto_1{
+  height: 80%;
+  width: 100%;
+  transition: ease 0.5s;
+  opacity: 1;
+  display: block;
+  backface-visibility: hidden;
+}
+
 
 .middle {
   transition: .5s ease;
