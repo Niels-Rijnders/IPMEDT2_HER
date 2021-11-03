@@ -3,6 +3,9 @@ const button = document.getElementsByClassName("intro_Button");
 //heeft en zorg dat die een z index van 1 heeft
 const overlay = document.getElementsByClassName("boddy_overlay")[0];
 const wijk_button = document.getElementById("wijk_Button");
+const slider = document.getElementById("slider");
+const foreground_img = document.getElementsByClassName("foreground_img")[0];
+
 
 
 setTimeout(function(){
@@ -40,6 +43,4 @@ for(let i = 0; i < button.length; i++){
     },750);
   };
 }
-
-
 

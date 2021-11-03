@@ -58,3 +58,11 @@ setInterval(function(){
     foto_nummer = 1;
   }
 },4000);
+
+slider.addEventListener('change', image_slide);
+
+function image_slide(e){
+  const sliderPos = e.target.value;
+  console.log(sliderPos);
+  foreground_img.style.width = sliderPos + "%";
+};
