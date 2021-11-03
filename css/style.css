@@ -286,6 +286,18 @@ a:hover{
   color: rgb(241, 241, 241);
 }
 
+.intro_Button{
+  width: 32rem;
+  height: 7rem;
+  position: relative;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: var(--button_color);
+  background-image: url("../img/wavecut.png");
+  z-index: 1;
+  color: white;
+}
+
 /*deze css is voor de slider op wijk 1 minigame html*/
 
 .vergelijkingsfoto{
