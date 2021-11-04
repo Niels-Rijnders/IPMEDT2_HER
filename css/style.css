@@ -76,6 +76,7 @@ a:hover{
 }
 /*DOE GEEN POSITION RELATIVE WANT DAT VERNEUKT DE HOVER HELEMAAL*/
 
+/* deze is obsolete maybe */
 .image_Pin {
   display: flex;
   position: absolute;
@@ -118,6 +119,7 @@ a:hover{
   color: #eee;
 }
 
+/*deze heeft een betere naam nodig  */
 .box_Kaart_Tekst{
   padding: 0px;
   border: 5px solid white;
@@ -125,6 +127,7 @@ a:hover{
   background-color: #5978CE;
 }
 
+/*deze ook */
 .box_Kaart_Tekst_Tekst{
   padding: 20px;
   margin-left: 0;
@@ -133,6 +136,7 @@ a:hover{
   margin: 0;
   background-color: white;
 }
+
 .kaart_Tekst{
   margin: 10px;
   color: white;
@@ -162,6 +166,7 @@ a:hover{
     z-index: 1;
   }
 
+  /*de _ tussen wijk en 1 zijn niet nodig */
 .wijk_1_figure{
   width: 90%;
   margin-left: 5%;
@@ -187,6 +192,7 @@ a:hover{
   line-height: 2.5rem;
 }
 
+/*zelfde geld voor wijk _ 2  */
 .wijk_2_img_text{
   text-align: center;
   font-size: 1.3rem;
@@ -206,7 +212,7 @@ a:hover{
   color: green;
 }
 
-
+/* wat de fuck is dit */
 .wijk_1_2_foto{
   height: 80%;
   width: 100%;
@@ -216,6 +222,7 @@ a:hover{
   backface-visibility: hidden;
 }
 
+/*dit klinkt niet helemaal topperonie */
 .wijk_2_minigame_foto_1{
   height: 30vh;
   width: 100%;
@@ -226,7 +233,7 @@ a:hover{
   backface-visibility: hidden;
 }
 
-
+/*middle van wat  */
 .middle {
   transition: .5s ease;
   opacity: 1;
