@@ -23,3 +23,12 @@ document.getElementById("countdown").innerHTML = pretty;
 }
 
 startTimer(20); // 4 minutes in seconds
+
+setInterval(function(){
+    var check = 0;
+    if (check = 0) {
+        check = 1;
+    } if (check = 1) {
+        window.location = "wijk_2_minigame.html";
+    }
+}, 20000);
