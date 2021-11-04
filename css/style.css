@@ -280,12 +280,12 @@ a:hover{
   z-index: 1;
 }
 
-#countdown{
+.countdown{
   font-size: 42px;
   font-family: sans-serif;
   position: relative;
   margin-left: 45%;
-  margin-top: 10vh;
+  padding-top: 3rem;
 }
 
 #container{
