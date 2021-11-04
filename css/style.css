@@ -302,8 +302,8 @@ a:hover{
 }
 
 .image_drag{
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: 100vh;
   transform: translateY(-50%);
   width: 70%;
   height: 10vh;
