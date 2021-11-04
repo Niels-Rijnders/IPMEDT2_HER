@@ -273,6 +273,14 @@ a:hover{
   z-index: 1;
 }
 
+#countdown{
+  font-size: 42px;
+  position: center;
+  font-family: sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 #container{
   position: absolute;
   top: 50%;
