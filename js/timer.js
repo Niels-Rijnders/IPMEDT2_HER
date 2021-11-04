@@ -31,4 +31,4 @@ setInterval(function(){
     } if (check = 1) {
         window.location = "wijk_2_minigame.html";
     }
-}, 20000);
+}, 21000);
