@@ -217,8 +217,9 @@ a:hover{
 }
 
 .wijk_2_minigame_foto_1{
-  height: 80%;
+  height: 30vh;
   width: 100%;
+  margin-top: 2vh;
   transition: ease 0.5s;
   opacity: 1;
   display: block;
@@ -254,6 +255,19 @@ a:hover{
   margin-top: 3%;
   margin-bottom: 3%;
   font-size: 4rem;
+  background-color: var(--button_color);
+  background-image: url("../img/wavecut.png");
+  z-index: 1;
+}
+
+.wijk_Minigame_Button{
+  width: 20%;
+  height: 70px;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  font-size: 2rem;
   background-color: var(--button_color);
   background-image: url("../img/wavecut.png");
   z-index: 1;
