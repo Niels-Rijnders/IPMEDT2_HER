@@ -10,11 +10,17 @@
 </head>
 <body>
     <div class="boddy_overlay"></div>
-    <img class="img_drag" src="img/Hoofd_1.jpg" id="image_drag" draggable="true" ondragstart="drag(event)"/>
-    
-    <br>
-    <div id="container" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    <div id="container" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <h1 class="intro_titel">Arresteer de schuldigen</h1>
+
+    <section id="slider">
+      <img class="img_drag" src="img/Hoofd_1.jpg" id="image_drag" draggable="true" ondragstart="drag(event)"/>
+      <img class="img_drag" src="img/Hoofd_2.jpg" id="image_drag_2" draggable="true" ondragstart="drag(event)"/>
+      <img class="img_drag" src="img/Hoofd_3.jpg" id="image_drag_3" draggable="true" ondragstart="drag(event)"/>
+    </section>
+    <div class="drag_Container" id="container" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="drag_Container" id="container_2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <p class="container_tekst">Schuldig</P>
+    <p class="container_tekst"> Onschuldig </p>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/drag.js"></script>
 </body>

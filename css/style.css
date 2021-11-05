@@ -290,9 +290,11 @@ a:hover{
   padding-top: 3rem;
 }
 
+
 #container{
   display: inline-block;
-  top: 80%;
+  position: relative;
+  top: 25vh;
   width: 35%;
   height: 20vh;
   margin: 7%;
@@ -301,12 +303,72 @@ a:hover{
   box-shadow: 2px 2px 24px #000;
 }
 
-.image_drag{
+#container_2{
+  display: inline-block;
   position: relative;
-  top: 100vh;
+  top: 25vh;
+  width: 35%;
+  height: 20vh;
+  margin: 7%;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 24px #000;
+}
+
+#container:hover{
+  background-color: green;
+}
+
+#container_2:hover{
+  background-color: red;
+}
+
+.container_tekst{
+  position: relative;
+  display: inline-block;
+  top: 22vh;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 19%;
+}
+
+#slider{
+    width: 100%;
+    overflow:hidden;
+}
+
+#image_drag{
+  position: relative;
+  z-index: 1;
+  top: 20vh;
   transform: translateY(-50%);
+  margin-left: 15%;
+  margin-right: 15%;
   width: 70%;
-  height: 10vh;
+  height: 25vh;
+  border-radius: 6px;
+}
+
+#image_drag_2{
+  position: relative;
+  z-index: 2;
+  transform: translateY(-50%);
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: 25vh;
+  border-radius: 6px;
+}
+
+#image_drag_3{
+  position: relative;
+  z-index: 3;
+  transform: translateY(-50%);
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: 25vh;
   border-radius: 6px;
 }
 

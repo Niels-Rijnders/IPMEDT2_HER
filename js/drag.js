@@ -1,5 +1,6 @@
 function drag(evt) {
   evt.dataTransfer.setData("image", evt.target.id);
+  evt.target.style.opacity = "0";
 }
 
 function drop(evt) {
