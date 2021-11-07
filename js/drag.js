@@ -30,6 +30,7 @@ function drop(evt) {
   console.log(img1con1);
   evt.target.appendChild(image);
   checkimg();
+  checkContainer();
   /*if (container1.hasChildNode(image1)) {
     container1.style.borderColor = "black";
   } else if (container1.hasChildNode(image2)) {
@@ -48,6 +49,22 @@ function checkimg(){
   img3con2 = container2.querySelector("#image_drag_3") != null;
   img4con2 = container2.querySelector("#image_drag_4") != null;
   img5con2 = container2.querySelector("#image_drag_5") != null;
+}
+
+function checkContainer(){
+  if (img1con1 == true || img2con1 == true || img3con1 == true) {
+    container1.style.borderColor = "green";
+    setTimeout(function(){container1.style.borderColor = "white";}, 2000);
+  } if (img1con2 == true || img2con2 == true || img3con2 == true) {
+    container2.style.borderColor = "red";
+    setTimeout(function(){container2.style.borderColor = "white";}, 2000);
+  } if (img4con1 == true || img5con1 == true) {
+    container1.style.borderColor = "red";
+    setTimeout(function(){container1.style.borderColor = "white";}, 2000);
+  } if (img4con2 == true || img5con2 == true) {
+    container2.style.borderColor = "green";
+    setTimeout(function(){container2.style.borderColor = "white";}, 2000);
+  }
 }
 
 function allowDrop(evt) {
