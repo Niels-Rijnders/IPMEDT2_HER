@@ -301,6 +301,9 @@ a:hover{
   background: #fff;
   border-radius: 6px;
   box-shadow: 2px 2px 24px #000;
+  border-color: white;
+  border-width: 1rem;
+  border-style: solid;
 }
 
 #container_2{
@@ -313,7 +316,12 @@ a:hover{
   background: #fff;
   border-radius: 6px;
   box-shadow: 2px 2px 24px #000;
+  border-color: white;
+  border-width: 1rem;
+  border-style: solid;
+  
 }
+
 
 #container:hover{
   background-color: green;
@@ -336,6 +344,7 @@ a:hover{
 #slider{
     width: 100%;
     overflow:hidden;
+    z-index: 1;
 }
 
 #image_drag{
