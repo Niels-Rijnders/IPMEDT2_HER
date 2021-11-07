@@ -3,6 +3,10 @@ container2 = document.getElementById("container_2");
 image1 = document.getElementById("image_drag");
 image2 = document.getElementById("image_drag_2");
 image3 = document.getElementById("image_drag_3");
+goedTekst = document.getElementById("goed");
+foutTekst = document.getElementById("fout");
+var aantalgoed = 0;
+var aantalfout = 0;
 
 var img1con1 = container1.querySelector("#image_drag") != null;
 var img2con1 = container1.querySelector("#image_drag_2") != null;
@@ -54,15 +58,23 @@ function checkimg(){
 function checkContainer(){
   if (img1con1 == true || img2con1 == true || img3con1 == true) {
     container1.style.borderColor = "green";
+    aantalgoed++;
+    goedTekst.innerHTML = ("punten aantal goed is: " + aantalgoed);
     setTimeout(function(){container1.style.borderColor = "white";}, 2000);
   } if (img1con2 == true || img2con2 == true || img3con2 == true) {
     container2.style.borderColor = "red";
+    aantalfout++;
+    foutTekst.innerHTML = ("punten aantal fout is: " + aantalfout);
     setTimeout(function(){container2.style.borderColor = "white";}, 2000);
   } if (img4con1 == true || img5con1 == true) {
     container1.style.borderColor = "red";
+    aantalfout++;
+    foutTekst.innerHTML = ("punten aantal fout is: " + aantalfout);
     setTimeout(function(){container1.style.borderColor = "white";}, 2000);
   } if (img4con2 == true || img5con2 == true) {
     container2.style.borderColor = "green";
+    aantalgoed++;
+    goedTekst.innerHTML = ("punten aantal goed is: " + aantalgoed);
     setTimeout(function(){container2.style.borderColor = "white";}, 2000);
   }
 }
