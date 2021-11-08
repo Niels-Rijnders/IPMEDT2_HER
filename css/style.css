@@ -380,6 +380,28 @@ a:hover{
   z-index: 3;
 }
 
+#image_drag_4{
+  grid-column: 1;
+  grid-row: 2;
+
+  align-self: center;
+  justify-self: center;
+  width: 25rem;
+  height: 70%;
+  z-index: 2;
+}
+
+#image_drag_5{
+  grid-column: 1;
+  grid-row: 2;
+
+  align-self: center;
+  justify-self: center;
+  width: 25rem;
+  height: 70%;
+  z-index: 1;
+}
+
 .drag_button{
   display: inline-block;
   position: relative;
