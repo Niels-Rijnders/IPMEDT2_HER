@@ -293,11 +293,11 @@ a:hover{
 
 #container{
   position: relative;
-  width: 40%;
+  width: 20%;
   height: 10vh;
   margin-top: 0.5vh;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 40%;
+  margin-right: 40%;
   background: #fff;
   border-radius: 6px;
   box-shadow: 2px 2px 24px #000;
@@ -308,10 +308,10 @@ a:hover{
 
 #container_2{
   position: relative;
-  width: 40%;
+  width: 20%;
   height: 10vh;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 40%;
+  margin-right: 40%;
   margin-top: 0.5vh;
   background: #fff;
   border-radius: 6px;
@@ -336,8 +336,8 @@ a:hover{
   font-size: 20px;
   font-family: sans-serif;
   color: white;
-  margin-left: 45%;
-  margin-right: 45%;
+  margin-top: 1.5vh;
+  text-align: center;
 }
 
 #slider{
