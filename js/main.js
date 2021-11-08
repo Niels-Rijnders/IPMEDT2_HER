@@ -35,12 +35,12 @@ function writeText(txt) {
   }
 }
 
-for(let i = 0; i < button.length; i++){
+/*for(let i = 0; i < button.length; i++){
   button[i].onclick = function (event){
     overlay.style.height = "100%";
     setTimeout(function(){
       window.location = "intro.html";
     },750);
   };
-}
+}*/
 

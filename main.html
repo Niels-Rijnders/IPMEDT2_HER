@@ -7,46 +7,50 @@
     <title>Hoofdpagina</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/transitie.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 <body>
     <div class="boddy_overlay"></div>
     <h1>Kaapstad</h1>
 
-
-    <section class="container">
-      <img src="img/wijk_1.png" alt="wijk_1" class="image">
-
-      <div class="overlay" onmouseover="writeText('Wijk 1, In deze wijk zijn mensen aan het demonstreren tegen de overheid en hoe hun omgaan met de waterschaarste.')">
-        <a href="#" class="icon" title="User Profile">
-            <i class="fa fa-user"></i>
-          </a>
-        </div>
-      </section>
-
-      <section class="container">
-        <img src="img/wijk_2.png" alt="wijk_1" class="image">
-        <div class="overlay" onmouseover="writeText('Wijk 2, In deze wijk zijn veel mensen die illegaal water gebruiken voor hun tuinen. Het is jouw taak deze mensen te vinden')">
-          <a href="#" class="icon" title="User Profile">
-              <i class="fa fa-user"></i>
-            </a>
-          </div>
-        </section>
-
+    <section class="kaart_Container">
+      <section class="kaart_image">
         <section class="container">
-          <img src="img/wijk_3.png" alt="wijk_1" class="image">
-          <div class="overlay" onmouseover="writeText('Wijk 3, In deze wijk is er een geloofsbijeenkomst waar mensen bidden voor regen.')">
+          <img src="img/wijk_1.png" alt="wijk_1" class="image">
+
+          <div class="overlay" onmouseover="writeText('Wijk 1, In deze wijk zijn mensen aan het demonstreren tegen de overheid en hoe hun omgaan met de waterschaarste.')">
             <a href="#" class="icon" title="User Profile">
                 <i class="fa fa-user"></i>
               </a>
             </div>
           </section>
+
+          <section class="container">
+            <img src="img/wijk_2.png" alt="wijk_1" class="image">
+            <div class="overlay" onmouseover="writeText('Wijk 2, In deze wijk zijn veel mensen die illegaal water gebruiken voor hun tuinen. Het is jouw taak deze mensen te vinden')">
+              <a href="#" class="icon" title="User Profile">
+                  <i class="fa fa-user"></i>
+                </a>
+              </div>
+            </section>
+
+            <section class="container">
+              <img src="img/wijk_3.png" alt="wijk_1" class="image">
+              <div class="overlay" onmouseover="writeText('Wijk 3, In deze wijk is er een geloofsbijeenkomst waar mensen bidden voor regen.')">
+                <a href="#" class="icon" title="User Profile">
+                    <i class="fa fa-user"></i>
+                  </a>
+                </div>
+              </section>
+            </section>
           <section class="box_Kaart_Tekst">
           <p class="kaart_Tekst" id="titel"><u>Titel</u> </p>
-          <section class="box_Kaart_Tekst_Tekst">
+          <section class="box_Kaart_Tekst_Section">
             <p class="kaart_Desc" id="desc">Hover over de wijken voor een beschrijving. </p>
               <button class="wijk_Button" id="wijk_Button" onclick="window.location.href='main.html';">Klik op een wijk</button>
           </section>
         </section>
+      </section>
         <button class="eind_Button" id="eind_button_js">Naar het einde</button>
 
     <script type="text/javascript" src="js/main.js"></script>

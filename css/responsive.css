@@ -1,0 +1,88 @@
+@media screen and (min-width: 450px){
+    .wijk_2_minigame_foto_1{
+        height: 30rem;
+        width: 40rem;
+    }
+
+    .drag_button{
+        width: 0rem;
+        height: 0rem;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .kaart_Container{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-row-gap: 0rem;
+
+    }
+
+    .box_Kaart_Tekst{
+        width: 94%;
+        display: inline-block;
+        position: relative;
+        grid-column: 2;
+        grid-row: 1 / span 3;
+    }
+
+    .wijk1_grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .wijk1_vergelijking_tekst{
+        text-align: center;
+    }
+
+    .vergelijkingsfoto{
+        left: 50%;
+        transform: translate(-57%, 0%);
+    }
+
+    .wijk2_1efoto{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .container{
+        margin-left: 12%;
+        margin-right: 20%;
+    }
+
+    .wijk2_foto{
+        width: 140%;
+    }
+
+    .wijk_2_minigame_foto_1{
+        height: 40rem;
+        width: 80rem;
+    }
+
+    .wijk3_tekst{
+        text-align: left;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .wijk3_foto{
+        height: 70%;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .wijk_2_img_text{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .wijk_2_minigame_foto_1{
+        margin-left: 5rem;
+    }
+}

@@ -60,8 +60,6 @@ a:hover{
   z-index: 1;
 }
 
-/* wijk afbeelding probeersel */
-
 .container {
   position: relative;
   width: 100%;
@@ -73,18 +71,7 @@ a:hover{
   width: 100%;
   height: auto;
   z-index: 1;
-}
-/*DOE GEEN POSITION RELATIVE WANT DAT VERNEUKT DE HOVER HELEMAAL*/
-
-/* deze is obsolete maybe */
-.image_Pin {
-  display: flex;
-  position: absolute;
-  width: 20%;
-  height: 60%;
-  top: 20%;
-  right: 50%;
-  z-index: 2;
+  margin-left: 2rem;
 }
 
 .overlay {
@@ -98,6 +85,7 @@ a:hover{
   width: 100%;
   transition: .3s ease;
   background-color: grey;
+  margin-left: 2rem;
 }
 
 .container:hover .overlay {
@@ -119,7 +107,6 @@ a:hover{
   color: #eee;
 }
 
-/*deze heeft een betere naam nodig  */
 .box_Kaart_Tekst{
   padding: 0px;
   border: 5px solid white;
@@ -127,8 +114,7 @@ a:hover{
   background-color: #5978CE;
 }
 
-/*deze ook */
-.box_Kaart_Tekst_Tekst{
+.box_Kaart_Tekst_Section{
   padding: 20px;
   margin-left: 0;
   margin-right: 0;
@@ -166,7 +152,6 @@ a:hover{
     z-index: 1;
   }
 
-  /*de _ tussen wijk en 1 zijn niet nodig */
 .wijk_1_figure{
   width: 90%;
   margin-left: 5%;
@@ -192,7 +177,6 @@ a:hover{
   line-height: 2.5rem;
 }
 
-/*zelfde geld voor wijk _ 2  */
 .wijk_2_img_text{
   text-align: center;
   font-size: 1.3rem;
@@ -212,8 +196,7 @@ a:hover{
   color: green;
 }
 
-/* wat de fuck is dit */
-.wijk_1_2_foto{
+.wijk2_foto{
   height: 80%;
   width: 100%;
   transition: ease 0.5s;
@@ -222,7 +205,6 @@ a:hover{
   backface-visibility: hidden;
 }
 
-/*dit klinkt niet helemaal topperonie */
 .wijk_2_minigame_foto_1{
   height: 30vh;
   width: 100%;
@@ -233,24 +215,8 @@ a:hover{
   backface-visibility: hidden;
 }
 
-/*middle van wat  */
-.middle {
-  transition: .5s ease;
+.container:hover .wijk2_foto {
   opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.container:hover .wijk_1_2_foto {
-  opacity: 1;
-}
-
-.container:hover .middle {
-  opacity: 0;
 }
 
 .wijk2_Button{
@@ -448,8 +414,8 @@ a:hover{
   width: 0rem;
   height: 0rem;
 }
-/*deze css is voor de slider op wijk 1 minigame html*/
 
+/*deze css is voor de slider op wijk 1 minigame html*/
 .vergelijkingsfoto{
   position: relative;
   width: 35rem;
