@@ -342,13 +342,14 @@ a:hover{
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 #image_drag{
   grid-column: 1;
   grid-row: 1 / span 3;
-
+  align-self: center;
+  justify-self: center;
   width: 25rem;
   height: 70%;
   overflow: hidden;
