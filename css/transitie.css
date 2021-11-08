@@ -12,5 +12,5 @@
     background-image: url("../img/wavecut.png");
     transition: 0.5s;
     transition-timing-function: linear;
-    z-index: 2;
+    z-index: 10;
   }
