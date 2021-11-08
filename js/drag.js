@@ -3,12 +3,11 @@ container2 = document.getElementById("container_2");
 image1 = document.getElementById("image_drag");
 image2 = document.getElementById("image_drag_2");
 image3 = document.getElementById("image_drag_3");
-goedButton = document.getElementById("goedButton");
-foutButton = document.getElementById("foutButton");
 goedTekst = document.getElementById("goed");
 foutTekst = document.getElementById("fout");
 var aantalgoed = 0;
 var aantalfout = 0;
+var huidigeimg = 0;
 
 var img1con1 = container1.querySelector("#image_drag") != null;
 var img2con1 = container1.querySelector("#image_drag_2") != null;
@@ -86,8 +85,81 @@ function allowDrop(evt) {
 }
 
 function goedImage(){
-  image3.style.opacity = "0";
-  container1.appendChild(image3);
-  checkimg();
-  checkContainer();
+  switch (huidigeimg) {
+    case 0:
+      image1.style.opacity = "0";
+      container1.appendChild(image1);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+    case 1:
+      image2.style.opacity = "0";
+      container1.appendChild(image2);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+    case 2:
+      image3.style.opacity = "0";
+      container1.appendChild(image3);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+    case 3:
+      image4.style.opacity = "0";
+      container1.appendChild(image4);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+    case 4:
+      image5.style.opacity = "0";
+      container1.appendChild(image5);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+  }
+}
+
+function foutImage(){
+  switch (huidigeimg) {
+    case 0:
+      image1.style.opacity = "0";
+      container2.appendChild(image1);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+    case 1:
+      image2.style.opacity = "0";
+      container2.appendChild(image2);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+    case 2:
+      image3.style.opacity = "0";
+      container2.appendChild(image3);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+    case 3:
+      image4.style.opacity = "0";
+      container2.appendChild(image4);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+    case 4:
+      image5.style.opacity = "0";
+      container2.appendChild(image5);
+      checkimg();
+      checkContainer();
+      huidigeimg++;
+      break;
+  }
 }
