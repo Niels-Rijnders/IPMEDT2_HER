@@ -4,15 +4,15 @@ var button3 = document.querySelector('#toggler3');
 
 button1.onclick = function(){
  var img = document.querySelector('img');
- img.src = "img/auto_was_1.jpg"
-}
+ img.src = "img/auto_was_1.jpg";
+};
 
 button2.onclick = function(){
  var img = document.querySelector('img');
- img.src = "img/auto_was_2.jpg"
-}
+ img.src = "img/auto_was_2.jpg";
+};
 
 button3.onclick = function(){
  var img = document.querySelector('img');
- img.src = "img/auto_was_3.jpg"
-}
+ img.src = "img/auto_was_3.jpg";
+};

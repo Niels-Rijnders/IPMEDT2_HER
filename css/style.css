@@ -451,7 +451,7 @@ a:hover{
   appearance: none;
   width: 100%;
   height: 0%;
-  background: rgba(#f2f2f2, .3);
+  background: white;
   outline: none;
   margin: 0;
   transition: all 2s;
@@ -461,7 +461,7 @@ a:hover{
 }
 
 .slider:hover{
-  background: rgba(#f2f2f2, .1);
+  background: white;
 }
 
 .slider::-webkit-slider-thumb{

@@ -40,7 +40,7 @@ function drop(evt) {
   checkimg();
   checkContainer();
   huidigeimg++;
-  showButton()
+  showButton();
   /*if (container1.hasChildNode(image1)) {
     container1.style.borderColor = "black";
   } else if (container1.hasChildNode(image2)) {
