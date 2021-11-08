@@ -442,6 +442,12 @@ a:hover{
   color: white;
 }
 
+.hidden_Button
+{
+  opacity: 0;
+  width: 0rem;
+  height: 0rem;
+}
 /*deze css is voor de slider op wijk 1 minigame html*/
 
 .vergelijkingsfoto{

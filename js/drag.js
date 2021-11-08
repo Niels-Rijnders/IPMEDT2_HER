@@ -7,6 +7,7 @@ image4 = document.getElementById("image_drag_4");
 image5 = document.getElementById("image_drag_5");
 goedTekst = document.getElementById("goed");
 foutTekst = document.getElementById("fout");
+introButton = document.getElementById("intro_Button");
 var aantalgoed = 0;
 var aantalfout = 0;
 var huidigeimg = 0;
@@ -38,6 +39,8 @@ function drop(evt) {
   evt.target.appendChild(image);
   checkimg();
   checkContainer();
+  huidigeimg++;
+  showButton()
   /*if (container1.hasChildNode(image1)) {
     container1.style.borderColor = "black";
   } else if (container1.hasChildNode(image2)) {
@@ -62,25 +65,21 @@ function checkContainer(){
   if (img1con1 == true || img2con1 == true || img3con1 == true) {
     container1.style.borderColor = "green";
     aantalgoed++;
-    huidigeimg++;
     goedTekst.innerHTML = ("punten aantal goed is: " + aantalgoed);
     setTimeout(function(){container1.style.borderColor = "white";}, 2000);
   } if (img1con2 == true || img2con2 == true || img3con2 == true) {
     container2.style.borderColor = "red";
     aantalfout++;
-    huidigeimg++;
     foutTekst.innerHTML = ("punten aantal fout is: " + aantalfout);
     setTimeout(function(){container2.style.borderColor = "white";}, 2000);
   } if (img4con1 == true || img5con1 == true) {
     container1.style.borderColor = "red";
     aantalfout++;
-    huidigeimg++;
     foutTekst.innerHTML = ("punten aantal fout is: " + aantalfout);
     setTimeout(function(){container1.style.borderColor = "white";}, 2000);
   } if (img4con2 == true || img5con2 == true) {
     container2.style.borderColor = "green";
     aantalgoed++;
-    huidigeimg++;
     goedTekst.innerHTML = ("punten aantal goed is: " + aantalgoed);
     setTimeout(function(){container2.style.borderColor = "white";}, 2000);
   }
@@ -91,6 +90,7 @@ function allowDrop(evt) {
 }
 
 function goedImage(){
+  console.log(huidigeimg);
   switch (huidigeimg) {
     case 0:
       image1.style.opacity = "0";
@@ -128,9 +128,11 @@ function goedImage(){
       huidigeimg++;
       break;
   }
+  showButton();
 }
 
 function foutImage(){
+  console.log(huidigeimg);
   switch (huidigeimg) {
     case 0:
       image1.style.opacity = "0";
@@ -167,5 +169,12 @@ function foutImage(){
       checkContainer();
       huidigeimg++;
       break;
+  }
+  showButton();
+}
+
+function showButton(){
+  if (huidigeimg == 5) {
+    introButton.classList.remove("hidden_Button");
   }
 }
