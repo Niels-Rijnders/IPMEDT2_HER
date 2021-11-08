@@ -32,9 +32,9 @@ function drop(evt) {
   var data = evt.dataTransfer.getData("image");
   var image = document.getElementById(data);
   console.log(img1con1);
-  evt.target.appendChild(image);
   image.style.width = "0rem";
   image.style.height = "0rem";
+  evt.target.appendChild(image);
   checkimg();
   checkContainer();
   /*if (container1.hasChildNode(image1)) {

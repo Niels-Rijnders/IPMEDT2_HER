@@ -292,11 +292,11 @@ a:hover{
 
 
 #container{
-  display: inline-block;
   position: relative;
-  width: 35%;
-  height: 20vh;
-  margin: 7%;
+  width: 40%;
+  height: 10vh;
+  margin-left: 30%;
+  margin-right: 30%;
   background: #fff;
   border-radius: 6px;
   box-shadow: 2px 2px 24px #000;
@@ -306,11 +306,11 @@ a:hover{
 }
 
 #container_2{
-  display: inline-block;
   position: relative;
-  width: 35%;
-  height: 20vh;
-  margin: 7%;
+  width: 40%;
+  height: 10vh;
+  margin-left: 30%;
+  margin-right: 30%;
   background: #fff;
   border-radius: 6px;
   box-shadow: 2px 2px 24px #000;
@@ -331,11 +331,11 @@ a:hover{
 
 .container_tekst{
   position: relative;
-  display: inline-block;
   font-size: 20px;
   font-family: sans-serif;
   color: white;
-  margin-left: 19%;
+  margin-left: 45%;
+  margin-right: 45%;
 }
 
 #slider{
