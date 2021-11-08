@@ -3,6 +3,8 @@ container2 = document.getElementById("container_2");
 image1 = document.getElementById("image_drag");
 image2 = document.getElementById("image_drag_2");
 image3 = document.getElementById("image_drag_3");
+goedButton = document.getElementById("goedButton");
+foutButton = document.getElementById("foutButton");
 goedTekst = document.getElementById("goed");
 foutTekst = document.getElementById("fout");
 var aantalgoed = 0;
@@ -18,8 +20,6 @@ var img2con2 = container2.querySelector("#image_drag_2") != null;
 var img3con2 = container2.querySelector("#image_drag_3") != null;
 var img4con2 = container2.querySelector("#image_drag_4") != null;
 var img5con2 = container2.querySelector("#image_drag_5") != null;
-
-
 
 
 function drag(evt) {
@@ -83,4 +83,11 @@ function checkContainer(){
 
 function allowDrop(evt) {
   evt.preventDefault();
+}
+
+function goedImage(){
+  image3.style.opacity = "0";
+  container1.appendChild(image3);
+  checkimg();
+  checkContainer();
 }

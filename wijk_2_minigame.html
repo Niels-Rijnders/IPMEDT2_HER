@@ -17,9 +17,9 @@
       <img class="img_drag" src="img/Hoofd_2.jpg" id="image_drag_2" draggable="true" ondragstart="drag(event)"/>
       <img class="img_drag" src="img/Hoofd_3.jpg" id="image_drag_3" draggable="true" ondragstart="drag(event)"/>
     </section>
-    <button class="drag_button"> < </button>
-    <button class="drag_button"> > </button>
     <p class="container_tekst">Schuldig</p>
+    <button class="drag_button" id="goedButton" onclick="goedImage()"> < </button>
+    <button class="drag_button" id="foutButon" onclick="foutImage()"> > </button>
     <div class="drag_Container" id="container" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     <p class="container_tekst"> Onschuldig </p><br>
     <div class="drag_Container" id="container_2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
