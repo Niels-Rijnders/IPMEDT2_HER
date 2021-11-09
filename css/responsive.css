@@ -98,3 +98,15 @@
         margin-left: 5rem;
     }
 }
+
+@media screen and (min-width: 1101px) {
+    .wijk_2_minigame_foto_1{
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    .wijk_2_minigame_foto_1{
+        margin-left: 22rem;
+    }
+}
