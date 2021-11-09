@@ -11,6 +11,13 @@
     }
 }
 
+@media screen and (min-width: 500px){
+    .wijk2_2efoto{
+        width: 120%;
+        margin-right: 3rem;
+    }
+}
+
 @media screen and (min-width: 801px) {
     .kaart_Container{
         position: relative;
@@ -45,18 +52,23 @@
     }
 
     .wijk2_1efoto{
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .container{
-        margin-left: 12%;
+        margin-left: 20%;
         margin-right: 20%;
     }
 
     .wijk2_foto{
         width: 140%;
+    }
+
+    .wijk2_2efoto{
+        width: 141%;
+        margin-left: 20%;
     }
 
     .wijk_2_minigame_foto_1{
