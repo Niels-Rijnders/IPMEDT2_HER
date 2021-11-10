@@ -1,6 +1,7 @@
 var timeInSecs;
 var ticker;
 
+/*dit is voor de timer die aftelt en uiteindelijk linkt naar de volgende pagina*/
 function startTimer(secs) {
 timeInSecs = parseInt(secs);
 ticker = setInterval("tick()", 1000);

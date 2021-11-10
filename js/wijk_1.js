@@ -4,45 +4,7 @@ const wijk1_figcaption = document.getElementById("wijk1_figcaption_js");
 const wijk1_figcaption2 = document.getElementById("wijk1_figcaption2_js");
 var foto_nummer = 1;
 
-/*
-setInterval(function(){
-  switch (foto_nummer) {
-    case 1:
-      wijk1_foto.setAttribute("src", "img/demonstratie_foto's/protest_2.png");
-      wijk1_figcaption.innerHTML = "Go to those overpriced hotels down the road!";
-      foto_nummer++;
-      break;
-    case 2:
-      wijk1_foto.setAttribute("src", "img/demonstratie_foto's/protest_3.png");
-      wijk1_figcaption.innerHTML = "You can run the bathwater until it floods, comrades!";
-      foto_nummer++;
-      break;
-    case 3:
-      wijk1_foto.setAttribute("src", "img/demonstratie_foto's/protest_4.png");
-      wijk1_figcaption.innerHTML = "They have no water crisis there!";
-      foto_nummer++;
-      break;
-    case 4:
-      wijk1_foto.setAttribute("src", "img/demonstratie_foto's/protest_5.png");
-      wijk1_figcaption.innerHTML = "But I bet you've got no water in your house!";
-      foto_nummer++;
-      break;
-    case 5:
-      //deze foto hoeft er misschien niet in
-      wijk1_foto.setAttribute("src", "img/demonstratie_foto's/protest_6.png");
-      wijk1_figcaption.innerHTML = "";
-      foto_nummer++;
-      break;
-    case 6:
-      wijk1_foto.setAttribute("src", "img/demonstratie_foto's/protest_1.png");
-      wijk1_figcaption.innerHTML = "We have no fear of what we are doing!";
-      foto_nummer = 1;
-  }
-  //deze moet langer als we de site gaan klaarmaken.
-  //maybe knoppen toevoegen om door de foto's te scrollen
-},2000);
-*/
-
+/*hier worden de twee fotos gewisselt samen met de tekst eronder*/
 setInterval(function(){
   if (foto_nummer == 1){
     wijk1_foto.setAttribute("src", "img/demonstratie_foto's/protest_3.png");
@@ -59,6 +21,7 @@ setInterval(function(){
   }
 },4000);
 
+/*hier word de breedte van de afbeelding aangepast afhankelijk van waar de slider is.*/
 slider.addEventListener('change', image_slide);
 
 function image_slide(e){

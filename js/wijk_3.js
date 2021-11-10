@@ -4,6 +4,8 @@ var foto_nummer = 1;
 const protest_audio = document.getElementById("protest_audio_js");
 const secret_tekst = document.getElementById("secret_tekst_js");
 
+/*dit laat een slideshow zien van de verschillende foto's met de ondertitels en de geheime tekst 
+verschijnt ook hiermee*/
 function slideshow(){
   setInterval(function(){
       switch (foto_nummer) {
@@ -68,6 +70,7 @@ function slideshow(){
     },9000);
   }
 
+  /*als je op de image klikt begint de audio en word de functie hierboven aangeroepen*/
 wijk3_foto.addEventListener("click", function(){
   protest_audio.play();
   slideshow();

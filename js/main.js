@@ -12,7 +12,9 @@ setTimeout(function(){
   overlay.style.height = "0%";
 },750);
 
-/*als je over de wijken hovert verandert de tekst en waar de button naartoe linkt.*/
+/*als je over de wijken hovert verandert de tekst en waar de button naartoe linkt.
+de titel en description zitten bij de div die daarna word gesplitst op een komma daardoor verschijnt de 
+alinea en de titel in de tekst box.*/
 function writeText(txt) {
   var array = txt.split(','), a = array[0], b = array[1];
   document.getElementById("titel").innerHTML = a;
@@ -35,13 +37,3 @@ function writeText(txt) {
       break;
   }
 }
-
-/*for(let i = 0; i < button.length; i++){
-  button[i].onclick = function (event){
-    overlay.style.height = "100%";
-    setTimeout(function(){
-      window.location = "intro.html";
-    },750);
-  };
-}*/
-

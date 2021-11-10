@@ -2,6 +2,7 @@ const wijk2_foto = document.getElementById("wijk2_foto_js");
 const wijk2_figcaption = document.getElementById("wijk2_figcaption_js");
 var foto_nummer = 1;
 
+/*een slideshow die de foto's aanpassen samen met de tekst eronder*/
 setInterval(function(){
   switch (foto_nummer) {
     case 1:
