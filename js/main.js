@@ -7,11 +7,12 @@ const slider = document.getElementById("slider");
 const foreground_img = document.getElementsByClassName("foreground_img")[0];
 
 
-
+/*dit is voor de blauwe overlay op elke pagina*/
 setTimeout(function(){
   overlay.style.height = "0%";
 },750);
 
+/*als je over de wijken hovert verandert de tekst en waar de button naartoe linkt.*/
 function writeText(txt) {
   var array = txt.split(','), a = array[0], b = array[1];
   document.getElementById("titel").innerHTML = a;

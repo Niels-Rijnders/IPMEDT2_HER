@@ -12,6 +12,8 @@ var aantalgoed = 0;
 var aantalfout = 0;
 var huidigeimg = 0;
 
+/*hier word gecheckt waar de images zijn geplaatst, staat image 1 in container 1 of 2
+en elk van deze geeft een true of false statement dat gebruikt kan worden. */
 var img1con1 = container1.querySelector("#image_drag") != null;
 var img2con1 = container1.querySelector("#image_drag_2") != null;
 var img3con1 = container1.querySelector("#image_drag_3") != null;
@@ -23,12 +25,13 @@ var img3con2 = container2.querySelector("#image_drag_3") != null;
 var img4con2 = container2.querySelector("#image_drag_4") != null;
 var img5con2 = container2.querySelector("#image_drag_5") != null;
 
-
+/*hier word de image wegehaald van de originele plek */
 function drag(evt) {
   evt.dataTransfer.setData("image", evt.target.id);
   evt.target.style.opacity = "0";
 }
 
+/*hier word de image in een van de containers geplaatst en de containers worden gecheckt */
 function drop(evt) {
   evt.preventDefault();
   var data = evt.dataTransfer.getData("image");
@@ -41,13 +44,9 @@ function drop(evt) {
   checkContainer();
   huidigeimg++;
   showButton();
-  /*if (container1.hasChildNode(image1)) {
-    container1.style.borderColor = "black";
-  } else if (container1.hasChildNode(image2)) {
-    container1.style.borderColor = "purple";
-  }*/
 }
 
+/*hier word een check uitgevoerd welke statements true of false zijn */
 function checkimg(){
   img1con1 = container1.querySelector("#image_drag") != null;
   img2con1 = container1.querySelector("#image_drag_2") != null;
@@ -61,6 +60,7 @@ function checkimg(){
   img5con2 = container2.querySelector("#image_drag_5") != null;
 }
 
+/*hier word gecheckt of een image goed of fout is geplaatst en een score word toegevoegd. */
 function checkContainer(){
   if (img1con1 == true || img2con1 == true || img3con1 == true) {
     container1.style.borderColor = "green";
@@ -89,6 +89,9 @@ function allowDrop(evt) {
   evt.preventDefault();
 }
 
+/*dit zijn de buttons op mobile waar je kan kieze welke image waar gaat. aan de hand van 
+de variable huidigeimg die elke keer word opgetelt zodat we weten welke image boven ligt.
+daarna word de bovenste image met deze buttons naar de containers verplaatst*/
 function goedImage(){
   console.log(huidigeimg);
   switch (huidigeimg) {
@@ -131,6 +134,7 @@ function goedImage(){
   showButton();
 }
 
+/*werkt hetzelfde als de vorige functie alleen dan voor de rechter button */
 function foutImage(){
   console.log(huidigeimg);
   switch (huidigeimg) {
@@ -173,6 +177,7 @@ function foutImage(){
   showButton();
 }
 
+/*na alle images verschijnt de button om weer terug naar de main pagina te gaan.*/
 function showButton(){
   if (huidigeimg == 5) {
     introButton.classList.remove("hidden_Button");
