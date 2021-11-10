@@ -13,7 +13,7 @@ timeInSecs--;
 }
 else {
 clearInterval(ticker);
-startTimer(20); // 4 minutes in seconds
+startTimer(20);
 }
 var mins = Math.floor(secs/60);
 secs %= 60;
@@ -22,7 +22,7 @@ var pretty = secs;
 document.getElementById("countdown").innerHTML = pretty;
 }
 
-startTimer(20); // 4 minutes in seconds
+startTimer(20); 
 
 setInterval(function(){
     var check = 0;
