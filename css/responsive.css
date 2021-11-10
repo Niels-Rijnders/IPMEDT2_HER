@@ -91,6 +91,12 @@
     .wijk_2_img_text{
         font-size: 2rem;
     }
+
+    .desktop_text{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-shadow: 1px 1px black;
+    }
 }
 
 @media screen and (min-width: 1001px) {

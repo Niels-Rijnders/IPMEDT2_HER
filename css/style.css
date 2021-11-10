@@ -63,7 +63,7 @@ a:hover{
 .container {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 360px;
 }
 
 .image {
